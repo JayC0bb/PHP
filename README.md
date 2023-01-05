@@ -4,6 +4,8 @@ Tento kód poskytuje API pro základní matematické operace (sčítání, odč�
 Použití:
 Abyste mohli s API pracovat, musíte poslat POST požadavek na jeho adresu s požadovanými parametry.
 
+
+
 Příklad požadavku pro násobení čísel 1, 5 a 8:
 
 $data = ['numbers' => [1, 5, 8]];
@@ -15,9 +17,13 @@ echo $result;
 Odpověď by měla být ve formátu JSON s klíči "report" (OK nebo ERR) a "result" (výsledek nebo chybová zpráva).
 
 
+
+
 Příklad úspěšné odpovědi:
 
 {"report":"OK","result":40}
+
+
 
 
 Příklad chybové odpovědi:
